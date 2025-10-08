@@ -47,7 +47,7 @@ int main() {
             break;
         }
         default:
-            cout << "Pilihan tidak valid." << endl;
+            cout << "Pilihan tidak valid" << endl;
             break;
     }
 
