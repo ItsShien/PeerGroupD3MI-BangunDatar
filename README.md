@@ -1,6 +1,5 @@
-
-# Kalkulator Geometri Pake C++
-
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZW90a3NieW1qNWxldm5sbTF6YWNpcWxnNjc1ZTVydmEzcWxtNGRmbCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/yv2dVSBBhwXMnOhsXF/giphy.gif" width="200"/>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=90EE90&random=false&width=435&lines=Kalkulator+Bangun+Datar)](https://git.io/typing-svg)
+ 
 Ini project C++ simpel buat ngitung luas bangun datar. Programnya jalan di terminal atau CMD doang, jadi bener-bener *basic* tapi fungsional. Pas banget buat yang lagi mulai belajar ngoding C++ biar konsep dasarnya makin nempel.
 
 ## Fiturnya Apa Aja?
@@ -36,7 +35,9 @@ Lo butuh C++ compiler ya, misalnya G++ (biasanya ada di MinGW buat Windows atau 
 5.  **Selesai**
     Nanti bakal muncul menunya di terminal. Tinggal ikutin aja instruksinya, masukin angka, dan hasilnya langsung keliatan.
 
-## Bedah Kodenya, Kuy
+---
+
+<img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3MTNuYmMxdG9naGdqZ2xjZmxnOXV2d3plbW4wYm5vdW9ueGVwb3h4dSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/M7jjSdxEeBiekxRGhM/giphy.gif" width="200"/>[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=90EE90&random=false&width=435&lines=Bedah+Kodenya+Yuk)](https://git.io/typing-svg)
 
 Penasaran gimana cara kerjanya? Sini kita bongkar dalemannya.
 
@@ -97,11 +98,7 @@ Struktur `switch` ini kayak pos satpam. Dia bakal ngecek isi variabel `pilihan`,
   * **`break;`**: Ini penting banget. Gunanya buat "ngerem" setelah satu `case` selesai. Kalo gak ada `break`, programnya bakal bablas ngejalanin kode di `case` selanjutnya.
   * **`default:`**: Ini "plan B". Kalo user masukin angka ngasal (misalnya 5 atau 100), kode di `default` ini yang jalan buat ngasih tau kalo pilihannya gak valid.
 
-## Bisa Di-upgrade Gak? Jelas\!
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dzdraWpyZHVkOWtobmdtM2oxeWRlajloNzFjc3dibTljcHFycnl1YiZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/BTdRfTF4ksPnteNJTp/giphy.gif" alt="Coding GIF" width="300"/>
+</p>
 
-Program ini udah jalan, tapi masih bisa dibikin lebih GG lagi. Coba deh:
-
-  * **Validasi Input Biar Gak Crash**: Sekarang, kalo user masukin huruf pas ditanya angka, programnya bakal error. Coba tambahin validasi biar programnya bisa nanganin input yang salah.
-  * **Pake Fungsi Biar Rapi**: Tiap perhitungan (persegi, segitiga, dll) bisa dipisah ke dalam fungsinya masing-masing. Biar fungsi `main` gak kepanjangan dan lebih gampang dibaca.
-  * **Bikin Loop Biar Bisa Ngitung Lagi**: Programnya sekarang cuma jalan sekali. Coba bungkus pake loop `do-while`, jadi setelah selesai ngitung ada pilihan "Mau hitung lagi? (y/n)".
-  * **Pake `const` Buat PI**: Seperti pro tip di atas, ini best practice biar kode lo lebih aman dan profesional.
